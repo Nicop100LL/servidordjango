@@ -146,8 +146,9 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 CORS_ALLOWED_ORIGINS = [
-  	  "https://example.com",
-  	  "https://sub.example.com",
+  	  "concesionario-nico.web.app/",
+  	  "https://concesionario-nico.web.app/",
+      "https://concesionario-nico.web.app",
   	  "http://localhost:5173",
   	  "http://127.0.0.1:3000",
 	]
